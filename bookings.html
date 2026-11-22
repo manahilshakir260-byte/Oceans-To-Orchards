@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oceans To Orchards | Bookings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header & Navigatio bar -->
+    <header>
+        <div class="container-navbar">
+            <a href="index.html" class="logo"><span>From</span>Oceans<span>To</span>Orchards</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="bookings.html" class="active">Bookings</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="page-banner">
+            <h1>Reserve Your Tour</h1>
+            <p>Fill out your travel preferences below and our tour coordinator will confirm your seats within 24 hours.
+            </p>
+        </div>
+        <section>
+            <div class="container grid-2">
+                <!-- Booking Form -->
+                <div class="form-box">
+                    <form action="#" method="post">
+                        <feildset>
+                            <legend>Traveler Details</legend>
+                            <div class="form-group">
+                                <label for="fullname">Full Name</label>
+                                <input type="text" id="fullname" name="fullname" placeholder="Enter Your Full Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="you@example.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone / Whatsapp Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+923000000000">
+                            </div>
+                        </feildset>
+                        <fieldset>
+                            <legend>Trip Preferences</legend>
+                            <div class="form-group">
+                                <label for="package">Select Your package</label>
+                                <select id="package" name="package">
+                                    <option value="">--Choose a Destination Package--</option>
+                                    <option value="ormara">Ormara Costal Escape(2 Days / 1 Night)</option>
+                                    <option value="quetta">Quetta Highland Retreat(3 Days / 2 Nights)</option>
+                                    <option value="combo">The Grand Orchards To Oceans</option>
+                                    <option value="custom">Custom Family / Group Tour</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="travel-date">Preffered Departure Date</label>
+                                <input type="date" id="travel-date" name="travel-date">
+                            </div>
+                            <div class="form-group">
+                                <label for="guests">Number Of Travelers</label>
+                                <input type="number" id="guests" name="guests" min="1" max="30" value="2">
+                            </div>
+
+                            <div class="form-group inline-options">
+                                <label>Accommodation Type:</label>
+                                <label><input type="radio" name="stay" value="standard" checked>Standard Shared</label>
+                                <label><input type="radio" name="stay" value="private">Private Room / Camp</label>
+                            </div>
+                            <div class="form-group">
+                                <label for="notes">Special Requests (Dietary , Pickup City,etc.)</label>
+                                <textarea id="notes" name="notes" rows="4"
+                                    placeholder="Let us know your pickup city"></textarea>
+                            </div>
+                        </fieldset>
+
+                        <button type="submit" class="btn">Submit Booking Request</button>
+                    </form>
+                </div>
+                <!-- Booking Guidelines Sidebaar -->
+                <aside>
+                    <h3>Booking Information</h3>
+                    <ul class="feature-list">
+                        <li><strong>CNIC/Passport:</strong>All travelers must carry a valid original CNIC(or passports
+                            for international guests)for Costal Highway checkpoints.</li>
+                        <li><strong>Advance Confirmation:</strong>Only a 30% deposit is needed to lock your seats;the
+                            reamining balance is payable upon Departure</li>
+                        <li><strong>Free Rescheduling:</strong>Change your travel date up to 5 days before departure at
+                            no extra cost</li>
+                        <li><strong>What to Pack:</strong>Light breathable clothes and sunglasses for ormara;a warm
+                            jacket for quetta evenigs</li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-flex">
+                <div class="footer-col">
+                    <h4>Oceans To Orchards</h4>
+                    <p>Dedicated Tourism Specialists offering guided tours exclusively to Ormara Tehsil & Quetta.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html"></a>About Us</li>
+                        <li><a href="services.html">Our Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="bookings.html">Bookings</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>Jinnah Road Quetta &amp; Coastal Point Ormara</li>
+                        <li>phone:+923001234567</li>
+                        <li>Email:info@orchardstooceans.pk</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy;2026 Orchards To Oceans.All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
